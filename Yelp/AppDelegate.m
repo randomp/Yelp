@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SearchListViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    SearchListViewController *svc = [[SearchListViewController alloc] init];
+    UINavigationController *unc = [[UINavigationController alloc] initWithRootViewController:svc];
+    self.window.rootViewController = unc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
