@@ -4,9 +4,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchListViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterViewController">
             <connections>
-                <outlet property="searchListTableView" destination="R0e-CS-KTz" id="fYn-AZ-Inu"/>
+                <outlet property="filterTableView" destination="Zqh-Xf-is2" id="VNA-dh-bhH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,19 +15,19 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="R0e-CS-KTz">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Zqh-Xf-is2">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="R0e-CS-KTz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RWT-NN-3m7"/>
-                <constraint firstItem="R0e-CS-KTz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bvH-bw-GDn"/>
-                <constraint firstAttribute="trailing" secondItem="R0e-CS-KTz" secondAttribute="trailing" id="d7X-fl-As5"/>
-                <constraint firstAttribute="bottom" secondItem="R0e-CS-KTz" secondAttribute="bottom" id="gAP-2g-7IC"/>
+                <constraint firstItem="Zqh-Xf-is2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1tm-mw-h6y"/>
+                <constraint firstAttribute="trailing" secondItem="Zqh-Xf-is2" secondAttribute="trailing" id="jZ8-qn-kuk"/>
+                <constraint firstAttribute="bottom" secondItem="Zqh-Xf-is2" secondAttribute="bottom" id="kha-8g-bSo"/>
+                <constraint firstItem="Zqh-Xf-is2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="q6e-DF-Nue"/>
             </constraints>
-            <point key="canvasLocation" x="139" y="154"/>
+            <point key="canvasLocation" x="413" y="398"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

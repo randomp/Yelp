@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27180A8D19CFBD3100B02501 /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27180A8B19CFBD3100B02501 /* SearchResultCell.m */; };
+		27180A8E19CFBD3100B02501 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27180A8C19CFBD3100B02501 /* SearchResultCell.xib */; };
+		27180A9219CFF21F00B02501 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 27180A9119CFF21F00B02501 /* SearchResult.m */; };
+		27180A9519D1409200B02501 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27180A9419D1409200B02501 /* Filter.m */; };
+		27180A9919D24EE000B02501 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27180A9719D24EE000B02501 /* MapViewController.m */; };
+		27180A9A19D24EE000B02501 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27180A9819D24EE000B02501 /* MapViewController.xib */; };
 		27CD107719CA94B60024315F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CD107619CA94B60024315F /* main.m */; };
 		27CD107A19CA94B60024315F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CD107919CA94B60024315F /* AppDelegate.m */; };
 		27CD108219CA94B60024315F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CD108119CA94B60024315F /* Images.xcassets */; };
@@ -14,6 +20,8 @@
 		27CD109E19CA97650024315F /* YelpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CD109D19CA97650024315F /* YelpClient.m */; };
 		27CD10A219CAA1CE0024315F /* SearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CD10A019CAA1CE0024315F /* SearchListViewController.m */; };
 		27CD10A319CAA1CE0024315F /* SearchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27CD10A119CAA1CE0024315F /* SearchListViewController.xib */; };
+		27CD10A719CEB6EC0024315F /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CD10A519CEB6EC0024315F /* FilterViewController.m */; };
+		27CD10A819CEB6EC0024315F /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27CD10A619CEB6EC0024315F /* FilterViewController.xib */; };
 		D501AC476C9C43E9A89D13EB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1FC8BF8EB4CDE9E6DF83D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27180A8A19CFBD3100B02501 /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		27180A8B19CFBD3100B02501 /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
+		27180A8C19CFBD3100B02501 /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		27180A9019CFF21F00B02501 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		27180A9119CFF21F00B02501 /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
+		27180A9319D1409200B02501 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		27180A9419D1409200B02501 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		27180A9619D24EE000B02501 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		27180A9719D24EE000B02501 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		27180A9819D24EE000B02501 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		27CD107119CA94B60024315F /* Yelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CD107519CA94B60024315F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CD107619CA94B60024315F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +60,9 @@
 		27CD109F19CAA1CE0024315F /* SearchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListViewController.h; sourceTree = "<group>"; };
 		27CD10A019CAA1CE0024315F /* SearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListViewController.m; sourceTree = "<group>"; };
 		27CD10A119CAA1CE0024315F /* SearchListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchListViewController.xib; sourceTree = "<group>"; };
+		27CD10A419CEB6EC0024315F /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		27CD10A519CEB6EC0024315F /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		27CD10A619CEB6EC0024315F /* FilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
 		2BC1FC8BF8EB4CDE9E6DF83D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7291224479421499D5ECD1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27180A8F19CFBD3900B02501 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27180A8A19CFBD3100B02501 /* SearchResultCell.h */,
+				27180A8B19CFBD3100B02501 /* SearchResultCell.m */,
+				27180A8C19CFBD3100B02501 /* SearchResultCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		27CD106819CA94B60024315F = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +119,7 @@
 		27CD107319CA94B60024315F /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
+				27180A8F19CFBD3900B02501 /* View */,
 				27CD109B19CA96E10024315F /* Model */,
 				27CD109A19CA960D0024315F /* View Controllers */,
 				27CD107819CA94B60024315F /* AppDelegate.h */,
@@ -130,6 +162,12 @@
 				27CD109F19CAA1CE0024315F /* SearchListViewController.h */,
 				27CD10A019CAA1CE0024315F /* SearchListViewController.m */,
 				27CD10A119CAA1CE0024315F /* SearchListViewController.xib */,
+				27CD10A419CEB6EC0024315F /* FilterViewController.h */,
+				27CD10A519CEB6EC0024315F /* FilterViewController.m */,
+				27CD10A619CEB6EC0024315F /* FilterViewController.xib */,
+				27180A9619D24EE000B02501 /* MapViewController.h */,
+				27180A9719D24EE000B02501 /* MapViewController.m */,
+				27180A9819D24EE000B02501 /* MapViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -139,6 +177,10 @@
 			children = (
 				27CD109C19CA97650024315F /* YelpClient.h */,
 				27CD109D19CA97650024315F /* YelpClient.m */,
+				27180A9019CFF21F00B02501 /* SearchResult.h */,
+				27180A9119CFF21F00B02501 /* SearchResult.m */,
+				27180A9319D1409200B02501 /* Filter.h */,
+				27180A9419D1409200B02501 /* Filter.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -234,6 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27CD10A319CAA1CE0024315F /* SearchListViewController.xib in Resources */,
+				27CD10A819CEB6EC0024315F /* FilterViewController.xib in Resources */,
+				27180A8E19CFBD3100B02501 /* SearchResultCell.xib in Resources */,
+				27180A9A19D24EE000B02501 /* MapViewController.xib in Resources */,
 				27CD108219CA94B60024315F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27180A9219CFF21F00B02501 /* SearchResult.m in Sources */,
+				27180A9519D1409200B02501 /* Filter.m in Sources */,
+				27180A8D19CFBD3100B02501 /* SearchResultCell.m in Sources */,
+				27180A9919D24EE000B02501 /* MapViewController.m in Sources */,
 				27CD107A19CA94B60024315F /* AppDelegate.m in Sources */,
 				27CD107719CA94B60024315F /* main.m in Sources */,
+				27CD10A719CEB6EC0024315F /* FilterViewController.m in Sources */,
 				27CD10A219CAA1CE0024315F /* SearchListViewController.m in Sources */,
 				27CD109E19CA97650024315F /* YelpClient.m in Sources */,
 			);
